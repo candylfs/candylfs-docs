@@ -1,3 +1,7 @@
-# Headline
+# candylfs Documentation
 
-> An awesome project.
+> candylfsのドキュメント
+
+## 目次
+
+- [課金体系](pricing.md)

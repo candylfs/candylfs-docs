@@ -12,10 +12,21 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'candylfs',
+      repo: 'candylfs/candylfs-docs',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      scrollToTop: {
+        auto: true,
+        text: 'Top',
+        right: 15,
+        bottom: 15,
+        offset: 500
+      }
     }
   </script>
+  <!-- Docsify Scroll to Top Plugin -->
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
